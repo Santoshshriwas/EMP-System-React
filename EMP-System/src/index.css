@@ -5,6 +5,12 @@
 #tasklist::-webkit-scrollbar{
 display: none;
 }
+#Alltask::-webkit-scrollbar{
+  display: none;
+}
 *{
   color: white;
+}
+body{
+  background-color: #1a1a1a;
 }
