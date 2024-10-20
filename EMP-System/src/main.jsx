@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import AuthContext from './Context/AuthContext.jsx'
 import TaskContext from './Context/TaskContext.jsx'
-
+localStorage.clear()
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AuthContext>
